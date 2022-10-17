@@ -1,0 +1,198 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+body>div{
+    padding: 0 10%;
+}
+
+.header, .main1{
+    background-color: #1F2937;
+}
+
+
+.header{
+
+    padding-top: 10px;;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+div.link{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end; 
+}
+
+.link-text{
+    font-size: 18px;
+
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* 
+a:link,a:visited{
+    color: white;
+    text-decoration: none;
+
+} */
+
+.main1{
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1-left, .main1-right{
+    width: 50%;
+
+}
+
+.main1-title{
+
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+.main1-content{
+
+    margin-top: 10px;
+
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.sign-up{
+
+    margin-top: 10px;
+
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    border-style: none;
+    border-radius: 5px;
+
+    font-size: 18px;
+}
+
+.main2-title{
+    padding: 40px 0;
+
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
+}
+
+.main2-content{
+
+    padding-bottom: 100px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.main2-content>div{
+    flex: 1 1 0;
+}
+
+.content-img{
+    width: 100%;
+    border-radius: 10px;
+    /* border-color: #3882F6;
+    border-width: 3px;
+    border-style: solid; */
+}
+
+.main3{
+    background-color: #E5E7EB;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.main3>p{
+    padding: 0 10%;
+}
+
+.quote-content{
+
+    /* font: 36px light italic ; */
+
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: justify;
+
+    color: #1F2937;
+
+}
+
+.quote-source{
+
+    font-size: 30px;
+    font-weight: 800;
+
+    text-align: end;
+}
+
+.main4{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main4-container{
+
+    padding: 40px 80px;
+    border-radius: 10px;
+
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main4-title{
+    font-size: 26px;
+    font-weight: 600;
+
+    color:#F9FAF8;
+}
+
+.main4-content{
+    font-size: 18px;
+    font-weight: 200;
+
+    color:#F9FAF8;
+}
+
+
+button.main4-button{
+
+    height: 33px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid white;
+}
+
+.footer{
+    height: 60px;
+    background-color: #1F2937;
+
+    line-height: 60px;
+    text-align: center;
+    color:#F9FAF8;
+}
